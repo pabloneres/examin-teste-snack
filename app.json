@@ -1,0 +1,67 @@
+{
+	"expo": {
+		"name": "Examin",
+		"slug": "Examin",
+		"owner": "clickweb",
+		"privacy": "unlisted",
+		"version": "1.0.0",
+		"platforms": [
+			"ios",
+			"android"
+		],
+		"userInterfaceStyle": "light",
+		"orientation": "portrait",
+		"backgroundColor": "#ffffff",
+		"primaryColor": "#36e6ba",
+		"scheme": "examin",
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": [
+			"app/assets/*"
+		],
+		"facebookAppId": "656435878896134",
+		"facebookDisplayName": "Examin",
+		"facebookScheme": "fb656435878896134",
+		"ios": {
+			"bundleIdentifier": "br.com.examin",
+			"buildNumber": "1.0.0.0",
+			"config": {
+				"usesNonExemptEncryption": false
+			},
+			"supportsTablet": false,
+			"requireFullScreen": true,
+			"infoPlist": {
+				"NSCameraUsageDescription": "Assim você poderá tirar fotos utilizando a sua câmera para avatar.",
+				"NSFaceIDUsageDescription": "Assim você poderá realizar seu login de forma rápida e segura.",
+				"NSLocationWhenInUseUsageDescription": "Com sua localização poderemos te enviar notificação baseado na sua região.",
+				"NSPhotoLibraryUsageDescription": "Assim você poderá selecionar fotos de sua galeria para avatar.",
+				"NSPhotoLibraryAddUsageDescription": "Assim você poderá selecionar fotos de sua galeria para avatar.",
+				"NSUserTrackingUsageDescription": "Esse identificador será usado para entregar anúncios personalizados para você.",
+				"CFBundleAllowMixedLocalizations": true
+			},
+			"usesAppleSignIn": true
+		},
+		"android": {
+			"package": "br.com.examin",
+			"versionCode": 1000,
+			"permissions": [
+				"INTERNET",
+				"SYSTEM_ALERT_WINDOW",
+				"READ_EXTERNAL_STORAGE",
+				"WRITE_EXTERNAL_STORAGE",
+				"VIBRATE",
+				"CAMERA",
+				"USE_BIOMETRIC",
+				"USE_FINGERPRINT"
+			],
+			"softwareKeyboardLayoutMode": "resize"
+		},
+		"plugins": [
+			"sentry-expo"
+		],
+		"extra": {
+			"oneSignalAppId": "1e7d0f87-8f4e-4482-9a8e-c43088c5ca24"
+		}
+	}
+}

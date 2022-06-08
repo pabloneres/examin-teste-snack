@@ -1,0 +1,3 @@
+export default {
+	CREDIT_CARDS: "LISTING_ITUI_UPDATED_CREDIT_CARDS",
+};
